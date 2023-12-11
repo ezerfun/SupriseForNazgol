@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/spiderman.css">
+    <link href="https://fonts.cdnfonts.com/css/comics" rel="stylesheet">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="spiderman">
+        <div class="head">
+          <div class="eye-left"></div>
+          <div class="eye-right"></div>
+        </div>
+        <div class="body">
+          <div class="spider"></div>
+          <div class="arm-left"></div>
+          <div class="arm-right"></div>
+        </div>
+        <div class="legs">
+          <div class="boot-left"></div>
+          <div class="boot-right"></div>
+        </div>
+      </div>
+    </div>
+    <img class="quote" id="1" src="./images/—Pngtree—quotation marks bubble box_3202389.png" alt="">
+    
+    <div class="cover"></div>
+    <div class="hello">
+      <p>Hey Nazgol</p>
+    </div>
+    <img class="Guns-Roses" src="./images/guns_n_roses_961.svg" alt="">
+    <img src="./images/File-05.png" alt="" class="harrypotter">
+    <div class="text-1">
+      <h1 class="text-1-h1">H e y !!</h1>
+    </div>
+    <button class="button-text1" id="1">Click Me</button>
+    <div class="text-2">
+      <h1>Wanted To Tell You</h1>
+    </div>
+    <button class="button-text2" id="2">And Me ;)</button>
+    <div class="text-3">
+      <h1>You Are Sooooo</h1>
+    </div>
+    <button class="button-text3" id="3">
+        You Know What To Do
+    </button>
+    <div class="text-4">
+      <h1>S o o o o o o . . .</h1>
+    </div>
+    <button class="button-text4" id="4">
+      It's getting annoying huh ?
+    </button>
+    <div class="text-5">
+      <h1>MARVELous</h1>
+      <h2> <3 </h2>
+    </div>
+    <button class="button-text5" id="5">
+     LAST ONE ! promise...
+    </button>
+    <div class="acdc">
+      <img id="1" src="./images/Logo_ACDC.svg" alt="">
+      <img class="guitar" src="./images/RenOliver_Guitar.svg" alt="">
+      <h1>Y o u - R o c k !</h1>
+    </div>
+    <script>
+      let btn = document.querySelector(".button-text1");
+      let posts = document.querySelectorAll(".text-1");
+      let font = document.querySelectorAll(".text-1-h1");
+      let flag = true;
+      btn.addEventListener("click", function () {
+        if (flag === true) {
+          posts.forEach((elem) => {
+            elem.classList.add("red");
+          });
+          flag = false;
+        } else {
+          posts.forEach((elem) => {
+            elem.classList.remove("red");
+          });
+          flag = true;
+        }
+      });
+    </script>
+    <script>
+      let btn2 = document.querySelector(".button-text2");
+      let posts2 = document.querySelectorAll(".text-2");
+      let flag2 = true;
+      btn2.addEventListener("click", function () {
+        if (flag2 === true) {
+          posts2.forEach((elem) => {
+            elem.classList.add("red");
+          });
+          flag2 = false;
+        } else {
+          posts2.forEach((elem) => {
+            elem.classList.remove("red");
+          });
+          flag2 = true;
+        }
+      });
+    </script>
+    <script>
+        let btn3 = document.querySelector(".button-text3");
+        let posts3 = document.querySelectorAll(".text-3");
+        let flag3= true;
+        btn3.addEventListener("click", function () {
+          if (flag3 === true) {
+            posts3.forEach((elem) => {
+              elem.classList.add("red");
+            });
+            flag3 = false;
+          } else {
+            posts3.forEach((elem) => {
+              elem.classList.remove("red");
+            });
+            flag3 = true;
+          }
+        });
+      </script>
+      <script>
+        let btn4 = document.querySelector(".button-text4");
+        let posts4 = document.querySelectorAll(".text-4");
+        let flag4= true;
+        btn4.addEventListener("click", function () {
+          if (flag4 === true) {
+            posts4.forEach((elem) => {
+              elem.classList.add("red");
+            });
+            flag4 = false;
+          } else {
+            posts4.forEach((elem) => {
+              elem.classList.remove("red");
+            });
+            flag4 = true;
+          }
+        });
+      </script>
+      <script>
+        let btn5 = document.querySelector(".button-text5");
+        let posts5 = document.querySelectorAll(".text-5");
+        let flag5= true;
+        btn5.addEventListener("click", function () {
+          if (flag5 === true) {
+            posts5.forEach((elem) => {
+              elem.classList.add("red");
+            });
+            flag5 = false;
+          } else {
+            posts5.forEach((elem) => {
+              elem.classList.remove("red");
+            });
+            flag5 = true;
+          }
+        });
+      </script>
+  </body>
+</html>

@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Comic;
+    src: url("../fonts/adamwarrenpro-bold.ttf");
+    src: url("../fonts/adamwarrenpro-bolditalic.ttf");
+    src: url("../fonts/adamwarrenpro.ttf");
+
+  }
+  @font-face {
+    font-family: Acdc;
+    src: url("../fonts/squealer.ttf");
+  }
+           
+/* 750E21 
+161A30 */
+body{
+    width: 100%;
+    height: 100%;
+}
+.quote {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: -60px;
+    top: -150px;
+    transform: rotate(180deg);
+}
+.iron-man{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -400px;
+    left: -600px;
+    transform: rotate(-40deg);
+}
+.cover{
+    width: 100px;
+    height: 20px;
+    position: relative;
+    left: 730px;
+    bottom: 350px;
+    background-color: #FCDC58;
+}
+.hello{
+    position: relative;
+    bottom: 280px;
+    left: -70px;
+    font-family: comic;
+}
+.text-1{
+    width: 400px;
+    height: 150px;
+    text-align: center;
+    background-color:  #1b405f;
+    border-radius: 50px;
+    position: relative;
+    top: -200px;
+    left: 200px;
+}
+.text-1 h1{
+    color: #1b405f;
+    font-size: 70px;
+    font-family: fantasy;
+    font-weight: 100;
+    font-family: comic;
+    position: relative;
+    top: 30px;
+
+}
+button[id="1"] {
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    top: -330px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #EEF5FF;
+    transition: 300ms;
+}
+.red{
+    background-color:  #B31312 !important;
+    -webkit-text-stroke-color:  white !important;
+}
+.text-2{
+    width: 700px;
+    height: 200px;
+    position: relative;
+    background-color: #1b405f;
+    top: -100px;
+    left: 100px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    border-radius: 30px;
+    font-family: comic;
+}
+.text-2 h1{
+    color: #1b405f;
+    position: relative;
+    top: 60px;
+}
+button[id="2"] {
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    top: -250px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #EEF5FF;
+    transition: 300ms;
+}
+.text-3{
+    position: relative;
+    top: -50px;
+    left: 100px;
+    width: 700px;
+    height: 200px;
+    background-color: #1b405f;
+    border-radius: 50px;
+    text-align: center;
+}
+.text-3 h1 {
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    color: #1b405f;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #1b405f;
+    font-family: comic;
+    
+}
+button[id="3"] {
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    top: -210px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #EEF5FF;
+    transition: 300ms;
+}
+.text-4{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 700px;
+    height: 200px;
+    background-color: #1b405f;
+    border-radius: 50px;
+    text-align: center;
+}
+.text-4 h1 {
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    color: #1b405f;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #1b405f;
+    font-family: comic;
+    
+}
+button[id="4"] {
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    top: -50px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #EEF5FF;
+    transition: 300ms;
+}
+.text-5{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 700px;
+    height: 200px;
+    background-color: #1b405f;
+    border-radius: 50px;
+    text-align: center;
+}
+.text-5 h1 {
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    color: #1b405f;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #1b405f;
+    font-family: comic;
+    
+}
+.text-5 h2 {
+    font-size: 50px;
+    position: relative;
+    top: 60px;
+    color: #1b405f;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color:  #1b405f;
+    font-family: comic;
+    
+}
+button[id="5"] {
+    font-size: 30px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #EEF5FF;
+    transition: 300ms;
+}
+.acdc{
+    position: relative;
+    top: 500px;
+    left: -210px;
+}
+.acdc .guitar{
+    width: 400px;
+    position: relative;
+    left: -690px;
+    transform: rotate(-40deg);
+    bottom: 100px;
+    
+}
+.acdc h1{
+    font-family: Acdc;
+    position: relative;
+    top: -120px;
+    left: 200px;
+}
+.button-text1:hover{
+    box-shadow: 0px 0px 25px 25px #F3F8FF;
+    transition: 300ms;
+}
+.button-text2:hover{
+    box-shadow: 0px 0px 25px 25px #F3F8FF;
+    transition: 300ms;
+}
+.button-text3:hover{
+    box-shadow: 0px 0px 25px 25px #F3F8FF;
+    transition: 300ms;
+}
+.button-text4:hover{
+    box-shadow: 0px 0px 25px 25px #F3F8FF;
+    transition: 300ms;
+}
+.button-text5:hover{
+    box-shadow: 0px 0px 25px 25px #F3F8FF;
+    transition: 300ms;
+}
+.Guns-Roses{
+    width: 300px;
+    position: relative;
+    top: -300px;
+    left: -300px;
+    transform: rotate(-40deg);
+}
+.harrypotter{
+    width: 300px;
+    position: relative;
+    top: -380px;
+    left: 120px;
+    transform: rotate(40deg);
+}
